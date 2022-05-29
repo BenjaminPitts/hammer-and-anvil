@@ -36,13 +36,19 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `var(--space-5)`,
+            marginTop: `5rem`,
             fontSize: `var(--font-sm)`,
+            background: `#090909`,
+            color: `ivory`,
+            padding: `2rem`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <p>  
+          <a href='https://www.facebook.com/HammerandAnvilHearing' target='_blank' > Facebook </a> |
+          <a href='https://www.instagram.com/hammer_and_anvil_hearing/' target='_blank'> Instagram </a> |
+          <a href='https://www.linkedin.com/in/gianni-digiacomo-6b218942/' target='_blank'> LinkedIn </a>
+        </p>
+          © {new Date().getFullYear()} &middot; Hammer and Anvil Hearing
         </footer>
       </div>
     </>
