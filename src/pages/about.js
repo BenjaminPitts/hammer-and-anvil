@@ -19,7 +19,7 @@ const AboutPage = () => (
       style={{ margin: `1rem` }}
     />
     </strong>
-    <h3><i>"Short paragraph about your mission statement, passions, experience, etc."</i></h3>
+    <h3><i>I am a musician and entrepenuer from Denver, CO.</i></h3>
 
 <Link to='/'><h3>Back to Homepage</h3></Link>
 
