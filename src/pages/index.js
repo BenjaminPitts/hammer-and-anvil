@@ -21,7 +21,7 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 const IndexPage = () => (
   <Layout>
 <div class ='text-block'>
-  <h3>Hammer and Anvil Hearing is committed to preventing hearing loss in the music community and beyond</h3>
+  <h3>Hammer & Anvil Hearing proudly provides hearing conservation alongside hearing health. Helping countless musicians since its inception, Hammer & Anvil Hearing ensures performing musicians, live sound engineers and concert hall staff protect their hearing with appropriate earplugs, hearing tests and education. Specializing in custom musician earplugs and in-ear-monitors, Hammer & Anvil offers services and products to keep musicians, music professionals and music lovers from damaging their most important instruments, their ears.</h3>
 </div>
     <strong>
     <StaticImage
