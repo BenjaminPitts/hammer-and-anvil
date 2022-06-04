@@ -21,7 +21,7 @@ const AboutPage = () => (
     </strong>
     <h3><i>I am a musician and entrepenuer from Denver, CO.</i></h3>
 
-<Link to='/'><h3>Back to Homepage</h3></Link>
+<Link to='#top'><h3>Back to Top</h3></Link>
 
   </Layout>
 )

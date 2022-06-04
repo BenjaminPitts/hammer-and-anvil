@@ -9,14 +9,24 @@ const ServicesPage = () => (
     <Seo title="Services" />
 
 <StaticImage
+  src="../images/products.jpeg"
+  width={600}
+  quality={95}
+  formats={["AUTO", "WEBP", "AVIF"]}
+  alt="Hammer and Anvil Hearing"
+  style={{ margin: `1rem` }}
+/>
+
+<StaticImage
   src="../images/services.jpeg"
   width={600}
   quality={95}
   formats={["AUTO", "WEBP", "AVIF"]}
-  alt="Benjamin Pitts"
+  alt="Hammer and Anvil Hearing"
   style={{ margin: `1rem` }}
 />
-  <Link to='/'><h3>Back to Homepage</h3></Link>
+
+  <Link to='#top'><h3>Back to Top</h3></Link>
   </Layout>
 )
 
