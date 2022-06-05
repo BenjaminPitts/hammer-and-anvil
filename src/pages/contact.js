@@ -13,7 +13,6 @@ const ContactPage = () => (
     <h2>Send us a message directly:</h2>
     <Form />
 
-<Link to='#top'><h3>Back to Top</h3></Link>
   </Layout>
 )
 

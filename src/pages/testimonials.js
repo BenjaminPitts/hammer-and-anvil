@@ -115,7 +115,7 @@ const ClientsPage = () => (
   </div>
 
 </div>
-<Link to='#top'><h3>Back to Top</h3></Link>
+
   </Layout>
 )
 
