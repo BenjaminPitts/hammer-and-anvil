@@ -10,6 +10,7 @@ const AboutPage = () => (
 
     <h1>Gianni DiGiacomo - Owner</h1>
     <strong>
+    <h3>Flexible Hours - Mobile Clinic - Competitive Pricing</h3>
     <StaticImage
       src="../images/Gianni.jpeg"
       width={400}

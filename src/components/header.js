@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/"> Home</Link> |
       <Link to="/about/"> About</Link> |
       <Link to="/services/"> Products & Services</Link> |
-      <Link to='/testimonials/'> Testimonials</Link> |
+      <Link to='/testimonials/'> Clients & Testimonials</Link> |
       <Link to ='/contact/'> Contact</Link>
   </div>
       <a class='consultation' href='https://calendly.com/benjaminjackpitts/30min' target='blank'><h3>Schedule a FREE Consultation Today</h3></a>
