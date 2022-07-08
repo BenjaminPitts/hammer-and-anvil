@@ -26,7 +26,6 @@ const Header = ({ siteTitle }) => (
 </Link>
   <div class='nav'>
       <Link to="/"> Home</Link> |
-      <Link to="/about/"> About</Link> |
       <Link to="/services/"> Products & Services</Link> |
       <Link to='/testimonials/'> Clients & Testimonials</Link> |
       <Link to ='/contact/'> Contact</Link>
