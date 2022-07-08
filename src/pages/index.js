@@ -75,7 +75,7 @@ const IndexPage = () => (
     </strong>
     <h3>Flexible Hours - Mobile Clinic - Competitive Pricing</h3>
     <div class='text-block'>
-    <h3><i>"Hello, my name is Gianni DiGiacomo and I am a musician from Denver, CO. I own and operate Hammer & Anvil hearing, a company that provides remote hearing, testing, and hearing aid services. We provide hearing aids, hearing aid maintainence & repair, educational resources & consultation, assisted listening devices and I strive to advocate for those with hearing loss. I've worked in Audiology for over ten years and have the experience and knowledge to provide an excellent patient experience. If you need help determining weather you need hearing aids, or just need assistance with maintaining or repairing your existing hearing aids, I'd love to meet you and help you out!"</i></h3>
+    <h3><i>"Hello, my name is Gianni DiGiacomo and I am a musician from Denver, CO and advocate to protect hearing in my community. I own and operate Hammer & Anvil hearing, a company that provides remote hearing, testing, and hearing aid services. We provide custom musician earplugs, in-ear monitors, hearing aids, hearing aid maintainence & repair, educational resources & consultation, assisted listening devices. I've worked in Audiology for over ten years and have the experience and knowledge to provide an excellent patient experience. If you need help determining weather you need hearing aids, or just need assistance with maintaining or repairing your existing hearing aids, I'd love to meet you and help you out!"</i></h3>
     </div>
 
   </Layout>
