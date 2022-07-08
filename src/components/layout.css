@@ -23,6 +23,7 @@ h5 {
   padding: 1rem;
   background:ivory;
   font-size: 18px;
+  margin: 0;
 }
 input, textarea {
   width: 50rem;
@@ -41,13 +42,12 @@ button:hover {
   cursor: pointer;
   background: gray;
 }
-
 .consultation {
   color: gold;
 }
 .text-block {
-color: gray;
-margin: 1rem 8rem;
+  color: gray;
+  margin: 1rem 10rem;
 }
 .client-inner-box {
   margin: 0 2rem;
@@ -66,6 +66,18 @@ margin: 1rem 8rem;
 }
 .top, .footer {
   margin: 1rem 0;
+}
+.outer-services-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-box {
+  width: 50%;
+}
+.spacing {
+  padding: 2rem;
 }
 .more {
   color: #090909;

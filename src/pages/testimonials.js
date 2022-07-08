@@ -36,6 +36,20 @@ const ClientsPage = () => (
     </strong>
     <h4>Sherwood Webber - Skinless</h4>
   </div>
+  
+  <div class='client-inner-box'>
+    <strong>
+    <StaticImage
+      src="../images/gothic.jpeg"
+      width={250}
+      quality={95}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Hammer and Anvil Hearing"
+      style={{ margin: `1rem` }}
+    />
+    </strong>
+    <h4>Richard Quintana - Gothic Theatre Staff</h4>
+  </div>
 
   <div class='client-inner-box'>
     <strong>
@@ -91,20 +105,6 @@ const ClientsPage = () => (
     />
     </strong>
     <h4>Shane McCarthy - Wayfarer</h4>
-  </div>
-
-  <div class='client-inner-box'>
-    <strong>
-    <StaticImage
-      src="../images/gothic.jpeg"
-      width={250}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
-    />
-    </strong>
-    <h4>Richard Quintana - Gothic Theatre Staff</h4>
   </div>
   
   <div class='client-inner-box'>
