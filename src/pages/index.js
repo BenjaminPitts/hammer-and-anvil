@@ -20,8 +20,9 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
+  <h1>Hammer and Anvil Hearing</h1>
 <div class ='text-block'>
-  <h3>Hammer & Anvil Hearing proudly provides hearing conservation alongside hearing health. Helping countless musicians since its inception, Hammer & Anvil Hearing ensures performing musicians, live sound engineers and concert hall staff protect their hearing with appropriate earplugs, hearing tests and education. Specializing in custom musician earplugs and in-ear-monitors, Hammer & Anvil offers services and products to keep musicians, music professionals and music lovers from damaging their most important instruments, their ears.</h3>
+  <h3>Hammer & Anvil Hearing proudly provides hearing conservation alongside hearing health. Helping countless musicians since its inception, Hammer & Anvil Hearing ensures performing musicians, live sound engineers, and concert hall staff protect their hearing with appropriate earplugs, hearing tests and education. Specializing in custom musician earplugs and in-ear-monitors, Hammer & Anvil offers services and products to keep musicians, music professionals and music lovers from damaging their most important instruments, <b>their ears</b>.</h3>
 </div>
     <strong>
     <StaticImage
@@ -60,8 +61,7 @@ const IndexPage = () => (
     <h3><a class='more' href='https://hearinghealthfoundation.org/blogs/music-induced-hearing-loss-what-do-college-students-know' target='blank'>... Full Article</a></h3>
     </h5>
     </div>
-    <div class='spacing'>
-    </div>
+    
     <h2>Gianni DiGiacomo - Owner</h2>
     <strong>
     <StaticImage
@@ -75,16 +75,9 @@ const IndexPage = () => (
     </strong>
     <h3>Flexible Hours - Mobile Clinic - Competitive Pricing</h3>
     <div class='text-block'>
-    <h3><i>"Hello, my name is Gianni DiGiacomo and I am a musician from Denver, CO and advocate to protect hearing in my community. I own and operate Hammer & Anvil hearing, a company that provides remote hearing, testing, and hearing aid services. We provide custom musician earplugs, in-ear monitors, hearing aids, hearing aid maintainence & repair, educational resources & consultation, assisted listening devices. I've worked in Audiology for over ten years and have the experience and knowledge to provide an excellent patient experience. If you need help determining weather you need hearing aids, or just need assistance with maintaining or repairing your existing hearing aids, I'd love to meet you and help you out!"</i></h3>
+    <h3><i>"My name is Gianni DiGiacomo and I am a musician from Denver, CO and advocate to protect hearing in my community. I own and operate Hammer & Anvil hearing, a company that provides remote hearing, testing, and hearing aid services. We provide custom musician earplugs, in-ear monitors, hearing aids, hearing aid maintainence & repair, educational resources & consultation, assisted listening devices. I've worked in Audiology for over ten years and have the experience and knowledge to provide an excellent patient experience. If you need help determining weather you need hearing aids, or just need assistance with maintaining or repairing your existing hearing aids, I'd love to meet you and help you out!"</i></h3>
     </div>
-    <StaticImage
-      src="../images/m-time.jpeg"
-      width={400}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="Gianni DiGiacomo"
-      style={{ margin: `1rem` }}
-    />
+
 
   </Layout>
 )

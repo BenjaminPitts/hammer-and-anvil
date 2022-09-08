@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 const ServicesPage = () => (
 <Layout>
   <Seo title="Services" />
+  <h1>Services</h1>
   
   <div class='outer-services-box'>
   <div class='services-box'>
