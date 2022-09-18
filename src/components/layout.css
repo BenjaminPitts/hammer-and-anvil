@@ -53,6 +53,17 @@ button:hover {
   padding: 1 rem;
   background-color: #1f1f1f;
 }
+.index-outer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.index-inner-box {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  justify-content: center;
+}
 .client-inner-box {
   margin: 0 2rem;
 }
@@ -73,13 +84,13 @@ button:hover {
 }
 .outer-services-box {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
 }
-.services-box {
-  width: 75%;
-}
+
+
 
 
 @media only screen and (max-width: 720px)
@@ -92,7 +103,7 @@ input, textarea {
   width: 20rem;
 }
 .text-block {
-  margin: .5rem 2rem;
+  margin: .5rem .5rem;
   padding: 0;
 }
 }
