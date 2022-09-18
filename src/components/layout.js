@@ -37,17 +37,17 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `10rem`,
+            marginTop: `4rem`,
             fontSize: `var(--font-sm)`,
             background: `#1f1f1f`,
             color: `ivory`,
-            padding: `2rem`,
+            padding: `1.5rem`,
           }}
         >
         <Link to='#top'><button class='top'>Back to Top</button></Link>
 
         <p class='footer'>
-          <a href='https://www.facebook.com/HammerandAnvilHearing' target='_blank' >
+          <a href='https://www.facebook.com/HammerandAnvilHearing' target='_blank' rel="noreferrer">
           <StaticImage
             src="../images/fb.png"
             width={40}
@@ -56,7 +56,7 @@ const Layout = ({ children }) => {
             alt="Hammer and Anvil Hearing"
             style={{ margin: `.5rem` }}
           /></a>
-          <a href='https://www.instagram.com/hammer_and_anvil_hearing/' target='_blank'>
+          <a href='https://www.instagram.com/hammer_and_anvil_hearing/' target='_blank' rel="noreferrer">
           <StaticImage
             src="../images/ig.png"
             width={40}
@@ -65,7 +65,7 @@ const Layout = ({ children }) => {
             alt="Hammer and Anvil Hearing"
             style={{ margin: `.5rem` }}
           /></a>
-          <a href='https://www.linkedin.com/in/gianni-digiacomo-6b218942/' target='_blank'>
+          <a href='https://www.linkedin.com/in/gianni-digiacomo-6b218942/' target='_blank' rel="noreferrer">
           <StaticImage
             src="../images/li.png"
             width={40}
@@ -77,6 +77,7 @@ const Layout = ({ children }) => {
           </a>
         </p>
           © {new Date().getFullYear()} &middot; Hammer and Anvil Hearing
+          <h6>Mobile Clinic | Flexible Hours | Competitive Pricing</h6>
         </footer>
       </div>
     </>

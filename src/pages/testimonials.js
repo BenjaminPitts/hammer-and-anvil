@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,29 +6,29 @@ import Seo from "../components/seo"
 const ClientsPage = () => (
   <Layout>
     <Seo title="Clients" />
-<h1>Clients and Testimonials</h1>
+<h1>Clients & Testimonials</h1>
 <div class='client-outer-box'>
 
   <div class='client-inner-box'>
     <strong>
     <StaticImage
-      src="../images/bi.jpeg"
-      width={250}
-      quality={95}
+      src="../images/phil.jpeg"
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
     />
     </strong>
-    <h4>Blood Incantation</h4>
+    <h4>Phil Pendergast - Khemmis</h4>
   </div>
 
   <div class='client-inner-box'>
     <strong>
     <StaticImage
       src="../images/sherwood.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -37,13 +36,13 @@ const ClientsPage = () => (
     </strong>
     <h4>Sherwood Webber - Skinless</h4>
   </div>
-  
+
   <div class='client-inner-box'>
     <strong>
     <StaticImage
       src="../images/gothic.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -56,8 +55,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/jp.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -70,8 +69,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/khemmis.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -79,27 +78,28 @@ const ClientsPage = () => (
     </strong>
     <h4>Ben Hutchenson - Khemmis</h4>
   </div>
-  
+
   <div class='client-inner-box'>
+
     <strong>
     <StaticImage
-      src="../images/phil.jpeg"
-      width={250}
-      quality={95}
+      src="../images/bi.jpeg"
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
     />
     </strong>
-    <h4>Phil Pendergast - Khemmis</h4>
+    <h4>Blood Incantation</h4>
   </div>
 
   <div class='client-inner-box'>
     <strong>
     <StaticImage
       src="../images/abrams.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -112,8 +112,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/wayfarer.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -121,13 +121,13 @@ const ClientsPage = () => (
     </strong>
     <h4>Shane McCarthy - Wayfarer</h4>
   </div>
-  
+
   <div class='client-inner-box'>
     <strong>
     <StaticImage
       src="../images/ben.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}

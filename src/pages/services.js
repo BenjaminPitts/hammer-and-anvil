@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -7,30 +6,65 @@ import Seo from "../components/seo"
 const ServicesPage = () => (
 <Layout>
   <Seo title="Services" />
-  <h1>Services</h1>
-  
+  <h1>Products & Services</h1>
+
   <div class='outer-services-box'>
-  <div class='services-box'>
-  
+
   <StaticImage
-    src="../images/services-2.jpeg"
-    width={600}
+    src="../images/plugs.jpeg"
+    width={550}
     quality={100}
     formats={["AUTO", "WEBP", "AVIF"]}
     alt="Hammer and Anvil Hearing"
     style={{ margin: `1rem` }}
   />
-    
+
 <StaticImage
-  src="../images/products.jpeg"
-  width={600}
+  src="../images/monitors.jpeg"
+  width={550}
   quality={100}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
   style={{ margin: `1rem` }}
 />
 
-</div>
+<StaticImage
+  src="../images/monitor-service.jpeg"
+  width={550}
+  quality={100}
+  formats={["AUTO", "WEBP", "AVIF"]}
+  alt="Hammer and Anvil Hearing"
+  style={{ margin: `1rem` }}
+/>
+
+<StaticImage
+  src="../images/testing.jpeg"
+  width={550}
+  quality={100}
+  formats={["AUTO", "WEBP", "AVIF"]}
+  alt="Hammer and Anvil Hearing"
+  style={{ margin: `1rem` }}
+/>
+
+<StaticImage
+  src="../images/aid.jpeg"
+  width={550}
+  quality={100}
+  formats={["AUTO", "WEBP", "AVIF"]}
+  alt="Hammer and Anvil Hearing"
+  style={{ margin: `1rem` }}
+/>
+
+<StaticImage
+  src="../images/aid-repairs.jpeg"
+  width={550}
+  quality={100}
+  formats={["AUTO", "WEBP", "AVIF"]}
+  alt="Hammer and Anvil Hearing"
+  style={{ margin: `1rem` }}
+/>
+
+
 </div>
 </Layout>
 
