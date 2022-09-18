@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
             background: `#1f1f1f`,
             color: `ivory`,
-            padding: `2rem`,
+            padding: `1.5rem`,
           }}
         >
         <Link to='#top'><button class='top'>Back to Top</button></Link>
@@ -77,6 +77,7 @@ const Layout = ({ children }) => {
           </a>
         </p>
           © {new Date().getFullYear()} &middot; Hammer and Anvil Hearing
+          <h6>Mobile Clinic | Flexible Hours | Competitive Pricing</h6>
         </footer>
       </div>
     </>

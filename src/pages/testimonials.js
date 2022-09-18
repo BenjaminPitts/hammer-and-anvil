@@ -13,8 +13,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/phil.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -27,8 +27,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/sherwood.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -41,8 +41,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/gothic.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -55,8 +55,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/jp.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -69,8 +69,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/khemmis.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -84,8 +84,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/bi.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -98,8 +98,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/abrams.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -112,8 +112,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/wayfarer.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}
@@ -126,8 +126,8 @@ const ClientsPage = () => (
     <strong>
     <StaticImage
       src="../images/ben.jpeg"
-      width={250}
-      quality={95}
+      width={300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
       style={{ margin: `1rem` }}

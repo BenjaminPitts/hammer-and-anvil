@@ -19,11 +19,13 @@ h2, h3 {
   margin: 1rem;
   padding: 1rem;
 }
-
 h5 {
   padding: 1rem;
   font-size: 18px;
   margin: 0;
+}
+h6 {
+  margin: .5rem;
 }
 input, textarea {
   width: 50rem;
@@ -53,17 +55,11 @@ button:hover {
   padding: 1 rem;
   background-color: #1f1f1f;
 }
-.index-outer-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.gianni {
+  margin: 0;
+  padding: 0;
 }
-.index-inner-box {
-  display: flex;
-  flex-direction: row;
-  width: 10%;
-  justify-content: center;
-}
+
 .client-inner-box {
   margin: 0 2rem;
 }

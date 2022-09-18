@@ -12,7 +12,7 @@ const AboutPage = () => (
     <h3>Flexible Hours - Mobile Clinic - Competitive Pricing</h3>
     <StaticImage
       src="../images/Gianni.jpeg"
-      width={400}
+      width={200}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="GianniDiGiacomo"
