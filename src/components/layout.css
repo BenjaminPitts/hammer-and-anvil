@@ -1,5 +1,5 @@
 body {
-  background: #090909;
+  background: #1f1f1f;
   text-align: center;
   /* display: flex;
   align-items: center;
@@ -9,11 +9,11 @@ body {
 a {
   text-decoration: none;
   font-size: 25px;
-  color: ivory;
+  color: gray;
   padding: .5rem;
 }
 a:hover {
-  color: gray;
+  color: ivory;
 }
 h2, h3 {
   margin: 1rem;
@@ -23,9 +23,6 @@ h5 {
   padding: 1rem;
   font-size: 18px;
   margin: 0;
-}
-h6 {
-  margin: .5rem;
 }
 input, textarea {
   width: 50rem;
@@ -46,7 +43,7 @@ button:hover {
 }
 .consultation {
   color: gold;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin: .5rem;
 }
@@ -59,7 +56,10 @@ button:hover {
   margin: 0;
   padding: 0;
 }
-
+.mission {
+  margin: .5rem;
+  font-size: 15px;
+}
 .client-inner-box {
   margin: 0 2rem;
 }

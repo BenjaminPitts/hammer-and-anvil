@@ -7,7 +7,7 @@ const Header = ({ siteTitle }) => (
 
   <header
     style={{
-      background: `#1f1f1f`,
+      background: `#090909`,
       padding: `0`,
       marginBottom: `2rem`,
     }}
@@ -15,13 +15,13 @@ const Header = ({ siteTitle }) => (
 <div class='header'>
 <Link to='/'>
     <StaticImage
-      src="../images/H&A-icon.jpeg"
+      src="../images/H&A-banner.png"
       id='top'
-      width={150}
+      width={700}
       quality={100}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `0rem` }}
     />
 </Link>
   <div class='nav'>

@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `4rem`,
             fontSize: `var(--font-sm)`,
-            background: `#1f1f1f`,
+            background: `#090909`,
             color: `ivory`,
             padding: `1.5rem`,
           }}
@@ -77,7 +77,7 @@ const Layout = ({ children }) => {
           </a>
         </p>
           © {new Date().getFullYear()} &middot; Hammer and Anvil Hearing
-          <h6>Mobile Clinic | Flexible Hours | Competitive Pricing</h6>
+          <h6 class='mission'>Mobile Clinic | Flexible Hours | Competitive Pricing</h6>
         </footer>
       </div>
     </>

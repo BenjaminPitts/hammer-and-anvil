@@ -8,7 +8,7 @@ const IndexPage = () => (
 
 
     <StaticImage
-      src="../images/mission.jpeg"
+      src="../images/mission.png"
       width={715}
       quality={100}
       formats={["AUTO", "WEBP", "AVIF"]}
