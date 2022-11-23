@@ -42,7 +42,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Hammer and Anvil Hearing`,
 }
 
 export default Header
