@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Hammer and Anvil Hearing`,
     description: `Hammer and Anvil Hearing is committed to prevented hearing loss in the music community and beyond`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `Benjamin Pitts`,
+    siteUrl: `https://www.hammerandanvilhearing.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
