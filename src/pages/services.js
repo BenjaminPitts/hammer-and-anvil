@@ -9,7 +9,7 @@ const ServicesPage = () => (
 
   <StaticImage
     src="../images/service1.png"
-    width={1200}
+    width={1300}
     quality={70}
     formats={["AUTO", "WEBP", "AVIF"]}
     alt="Hammer and Anvil Hearing"
@@ -18,7 +18,7 @@ const ServicesPage = () => (
 
 <StaticImage
   src="../images/service2.png"
-  width={1200}
+  width={1300}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
@@ -27,7 +27,7 @@ const ServicesPage = () => (
 
 <StaticImage
   src="../images/service3.png"
-  width={1200}
+  width={1300}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
@@ -36,24 +36,23 @@ const ServicesPage = () => (
 
 <StaticImage
   src="../images/service4.png"
-  width={1200}
+  width={1300}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem`, border: `1px solid blck` }}
+  style={{ margin: `1rem`, border: `1px solid ivory` }}
 />
 
 <StaticImage
   src="../images/service5.png"
-  width={1200}
+  width={1300}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem`, border: `1px solid black` }}
+  style={{ margin: `1rem`, border: `1px solid ivory` }}
 />
 
 <h1>Services</h1>
-
 
 </Layout>
 

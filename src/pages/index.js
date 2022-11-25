@@ -69,7 +69,6 @@ const IndexPage = () => (
     <br />
     <h1>Hammer and Anvil Hearing</h1>
 
-
   </Layout>
 )
 

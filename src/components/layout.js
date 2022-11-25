@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
             fontSize: `var(--font-sm)`,
             background: `#090909`,
             color: `ivory`,
-            padding: `1.5rem`,
+            padding: `.5rem`
           }}
         >
         <Link to='#top'><button class='top'>Back to Top</button></Link>
