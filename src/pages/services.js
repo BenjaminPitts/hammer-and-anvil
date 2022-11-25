@@ -6,66 +6,54 @@ import Seo from "../components/seo"
 const ServicesPage = () => (
 <Layout>
   <Seo title="Services" />
-  <h1>Products & Services</h1>
-
-  <div class='outer-services-box'>
 
   <StaticImage
-    src="../images/plugs.jpeg"
-    width={550}
-    quality={100}
+    src="../images/plugs.png"
+    width={1200}
+    quality={70}
     formats={["AUTO", "WEBP", "AVIF"]}
     alt="Hammer and Anvil Hearing"
-    style={{ margin: `1rem` }}
+    style={{ margin: `1rem`, border: `1px solid ivory` }}
   />
 
 <StaticImage
-  src="../images/monitors.jpeg"
-  width={550}
-  quality={100}
+  src="../images/monitors.png"
+  width={1200}
+  quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem` }}
+  style={{ margin: `1rem`, border: `1px solid ivory` }}
 />
 
 <StaticImage
-  src="../images/monitor-service.jpeg"
-  width={550}
-  quality={100}
+  src="../images/hearing-aids.png"
+  width={1200}
+  quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem` }}
+  style={{ margin: `1rem`, border: `1px solid ivory` }}
 />
 
 <StaticImage
-  src="../images/testing.jpeg"
-  width={550}
-  quality={100}
+  src="../images/testing.png"
+  width={1200}
+  quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem` }}
+  style={{ margin: `1rem`, border: `1px solid blck` }}
 />
 
 <StaticImage
-  src="../images/aid.jpeg"
-  width={550}
-  quality={100}
+  src="../images/aid-repairs.png"
+  width={1200}
+  quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
   alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem` }}
+  style={{ margin: `1rem`, border: `1px solid black` }}
 />
 
-<StaticImage
-  src="../images/aid-repairs.jpeg"
-  width={550}
-  quality={100}
-  formats={["AUTO", "WEBP", "AVIF"]}
-  alt="Hammer and Anvil Hearing"
-  style={{ margin: `1rem` }}
-/>
-
-
-</div>
+<h1>Services</h1>
+  
 </Layout>
 
 )

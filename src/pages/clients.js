@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 const ClientsPage = () => (
   <Layout>
     <Seo title="Clients" />
-<h1>Clients & Testimonials</h1>
+
 <div class='client-outer-box'>
 
   <div class='client-inner-box'>
@@ -17,7 +17,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Phil Pendergast - Khemmis</h4>
@@ -31,7 +31,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Sherwood Webber - Skinless</h4>
@@ -45,7 +45,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Richard Quintana - Gothic Theatre Staff</h4>
@@ -59,7 +59,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>JP Damaron - Vermin Womb</h4>
@@ -73,7 +73,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Ben Hutchenson - Khemmis</h4>
@@ -88,7 +88,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Blood Incantation</h4>
@@ -102,7 +102,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Zac Amster - Abrams</h4>
@@ -116,7 +116,7 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Shane McCarthy - Wayfarer</h4>
@@ -130,13 +130,57 @@ const ClientsPage = () => (
       quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Hammer and Anvil Hearing"
-      style={{ margin: `1rem` }}
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
     />
     </strong>
     <h4>Ben Pitts - NightWraith</h4>
   </div>
+  
+  <div class='client-inner-box'>
+    <strong>
+    <StaticImage
+      src="../images/necrogoblikon.jpeg"
+      width={300}
+      quality={75}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Hammer and Anvil Hearing"
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
+    />
+    </strong>
+    <h4>Eric Brown - Necrogoblikon</h4>
+  </div>
+  
+  <div class='client-inner-box'>
+    <strong>
+    <StaticImage
+      src="../images/hellgramites.jpeg"
+      width={300}
+      quality={75}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Hammer and Anvil Hearing"
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
+    />
+    </strong>
+    <h4>Erik Peterson - The Hellgrammites</h4>
+  </div>
+  
+  <div class='client-inner-box'>
+    <strong>
+    <StaticImage
+      src="../images/hashtronaut.jpeg"
+      width={300}
+      quality={75}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="Hammer and Anvil Hearing"
+      style={{ margin: `1rem`, border: `1px solid ivory` }}
+    />
+    </strong>
+    <h4>Robb - Hashtronaut</h4>
+  </div>
 
 </div>
+
+<h1>Clients</h1>
   </Layout>
 
 )
