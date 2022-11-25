@@ -6,7 +6,7 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Hammer and Anvil Hearing" />
+    <Seo title="H&A" />
   
   <div class='outer-services-box'>
   <StaticImage

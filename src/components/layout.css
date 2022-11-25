@@ -53,6 +53,7 @@ button:hover {
   color: ivory;
   width: 80%;
   border: 1px solid ivory;
+  text-align: left;
 }
 .gianni {
   margin: 0;
@@ -87,8 +88,14 @@ button:hover {
   flex-wrap: wrap;
   align-items: center;
 }
+.icon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+}
   
-
 
 
 @media only screen and (max-width: 720px)
@@ -99,6 +106,9 @@ a, h2, h3 {
 }
 input, textarea {
   width: 20rem;
+}
+.email-link {
+  font-size: 16px;
 }
 .text-block {
   margin: .5rem .5rem;

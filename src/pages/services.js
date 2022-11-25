@@ -35,7 +35,7 @@ const ServicesPage = () => (
 />
 
 <StaticImage
-  src="../images/testing.png"
+  src="../images/testing2.png"
   width={1200}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
@@ -44,7 +44,7 @@ const ServicesPage = () => (
 />
 
 <StaticImage
-  src="../images/aid-repairs.png"
+  src="../images/aid-repairs2.png"
   width={1200}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}

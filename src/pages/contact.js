@@ -9,7 +9,8 @@ const ContactPage = () => (
     <Seo title="Contact" />
     <h2> Please reach out via email or phone if you have any questions:</h2>
     
-    <div class='outer-services-box'>
+    <br /><br />
+    <div class='icon-box'>
     <StaticImage
       src="../images/email-icon.png"
       width={50}
@@ -18,11 +19,11 @@ const ContactPage = () => (
       alt="ear"
       style={{ margin: `1rem` }}
     />
-    <b><a href='mailto:hammer.anvil.hearing@gmail.com'>hammer.anvil.hearing@gmail.com</a></b>
+    <b><a class='email-link' href='mailto:hammer.anvil.hearing@gmail.com'>hammer.anvil.hearing@gmail.com</a></b>
     </div>
       
     
-    <div class='outer-services-box'>
+    <div class='icon-box'>
     <StaticImage
       src="../images/phone-icon.png"
       width={50}
@@ -34,9 +35,8 @@ const ContactPage = () => (
     
     <b><a href= 'tel:3038476662'>(303) 847-6662</a></b>
     </div>
-
     
-    <br /><br />
+    <br />
     <h2>Or Send a Message Directly:</h2>
     <Form />
 
