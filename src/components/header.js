@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
       <Link to='/clients/'> Clients</Link> |
       <Link to ='/contact/'> Contact</Link>
   </div>
-      <a class='consultation' href='https://calendly.com/benjaminjackpitts/30min' target='blank'>Schedule a FREE Consultation Today</a>
+      <a class='consultation' href='https://calendly.com/hammer-anvil-hearing' target='blank'>Schedule a FREE Consultation Today</a>
 
 </div>
   </header>

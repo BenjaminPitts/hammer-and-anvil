@@ -8,7 +8,7 @@ const ServicesPage = () => (
   <Seo title="Services" />
 
   <StaticImage
-    src="../images/plugs.png"
+    src="../images/service1.png"
     width={1200}
     quality={70}
     formats={["AUTO", "WEBP", "AVIF"]}
@@ -17,7 +17,7 @@ const ServicesPage = () => (
   />
 
 <StaticImage
-  src="../images/monitors.png"
+  src="../images/service2.png"
   width={1200}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
@@ -26,7 +26,7 @@ const ServicesPage = () => (
 />
 
 <StaticImage
-  src="../images/hearing-aids.png"
+  src="../images/service3.png"
   width={1200}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
@@ -35,7 +35,7 @@ const ServicesPage = () => (
 />
 
 <StaticImage
-  src="../images/testing2.png"
+  src="../images/service4.png"
   width={1200}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
@@ -44,7 +44,7 @@ const ServicesPage = () => (
 />
 
 <StaticImage
-  src="../images/aid-repairs2.png"
+  src="../images/service5.png"
   width={1200}
   quality={70}
   formats={["AUTO", "WEBP", "AVIF"]}
@@ -53,7 +53,8 @@ const ServicesPage = () => (
 />
 
 <h1>Services</h1>
-  
+
+
 </Layout>
 
 )

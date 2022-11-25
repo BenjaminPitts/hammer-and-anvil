@@ -45,6 +45,13 @@ const Layout = ({ children }) => {
           }}
         >
         <Link to='#top'><button class='top'>Back to Top</button></Link>
+        
+        <div class='nav'>
+            <Link to="/"> Home</Link> |
+            <Link to="/services/"> Services</Link> |
+            <Link to='/clients/'> Clients</Link> |
+            <Link to ='/contact/'> Contact</Link>
+        </div>
 
         <p class='footer'>
           <a href='https://www.facebook.com/HammerandAnvilHearing' target='_blank' rel="noreferrer">
