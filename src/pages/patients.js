@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const ClientsPage = () => (
   <Layout>
-    <Seo title="Clients" />
+    <Seo title="Patients" />
 
 <div class='client-outer-box'>
 

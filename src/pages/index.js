@@ -12,16 +12,17 @@ const IndexPage = () => (
   <StaticImage
     src="../images/H&A-icon.png"
     width={110}
-    quality={100}
+    quality={75}
     formats={["AUTO", "WEBP", "AVIF"]}
     alt="ear"
     style={{ margin: `1rem` }}
   />
+  
   <div class='text-block'>
     <h3>Hammer & Anvil Hearing is a remote audiology service. We travel to our patients homes for help with hearing loss, tinnitus and hearing aid services. We are very serious about  hearing conservation and specialize in music hearing conservation. Helping countless musicians since its inception, Hammer & Anvil Hearing ensures performing musicians, live sound engineers and concert hall staff protect their hearing with appropriate earplugs, hearing tests and education. Specializing in custom musician earplugs and in-ear-monitors, Hammer & Anvil offers services and products to keep musicians, music professionals and music lovers from damaging their most important instruments, their ears. </h3>
   </div>
   </div>
-  
+
   <br />
   <div class='outer-services-box'>
   <div class='text-block'>
@@ -31,37 +32,46 @@ const IndexPage = () => (
   <StaticImage
     src="../images/H&A-icon.png"
     width={110}
-    quality={100}
+    quality={75}
     formats={["AUTO", "WEBP", "AVIF"]}
     alt="ear"
     style={{ margin: `1rem` }}
   />
   </div>
-
-    <br />
+  
+  <br />
+  
     <div class='outer-services-box'>
     <StaticImage
-      src="../images/Gianni.jpeg"
-      width={130}
-      quality={90}
+      src="../images/headshot.png"
+      width={150}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
       alt="Gianni DiGiacomo"
-      style={{ margin: `.5rem` }}
+      style={{ margin: `1rem`, border: `1px solid black` }}
     />
     <div class='text-block'>
-    <h3><i><b>"I'm Gianni DiGiacomo, a musician from Denver, CO and advocate to protect hearing in my community.</b> I own and operate Hammer & Anvil hearing, a company that provides remote hearing testing, and hearing aid services. We provide custom musician earplugs, in-ear monitors, hearing aids, hearing aid maintainence/repair, educational resources & consultation, and assisted listening devices. I've worked in Audiology for over ten years and have the education and knowledge to provide an excellent patient experience."</i></h3>
+    <h3><i>"Hi, I'm Gianni Michael DiGiacomo, Owner and Provider for Hammer & Anvil Hearing. Over the last 10 years I've served my community of musicians and music lovers to help preserve their hearing with custom earplugs, monitors and hearing conservation education.  I'm very passionate about music and have been performing since a very young age. I have experience in live performance, recording and myself have Music Induced Hearing Loss. I understand the challenges of being a  performing musician and the risks we endure with our craft. Please reach out if you need help with hearing preservation, tinnitus or hearing loss. "</i></h3>
     </div>
     </div>
-
         
-    <br />
+<h2>Mobile Clinic | Flexible Hours | Competitive Pricing</h2>
 
     <StaticImage
-      src="../images/ear.jpeg"
-      width={1200}
-      quality={100}
+      src="../images/gift1.png"
+      width={1300}
+      quality={75}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="ear"
+      alt="gift1"
+      style={{ margin: `1rem`, border: `1px solid black` }}
+    />
+    
+    <StaticImage
+      src="../images/gift2.png"
+      width={1300}
+      quality={75}
+      formats={["AUTO", "WEBP", "AVIF"]}
+      alt="gift2"
       style={{ margin: `1rem`, border: `1px solid black` }}
     />
         
